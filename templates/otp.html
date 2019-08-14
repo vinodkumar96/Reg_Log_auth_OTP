@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#adff2f">
+<div class="select2-container" align="center">
+<form action="./OTP" method="post">
+    {% csrf_token %}
+    <input type="password" name="otp"><br>
+    <input type="submit" value="send">
+
+</form>
+</div>
+</body>
+</html>
